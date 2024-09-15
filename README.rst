@@ -30,10 +30,8 @@ Really quick start guide
     subdir: qemu/
     [openvswitch]
     subdir: openvswitch/
-You can optionally delete temporarily the
-`io-github-autotest-qemu.ini` file, just so you don't have test
-conflicts. Then you can develop your new test code, run it
-using virt test, and commit your changes.
+You can delete temporarily the `io-github-autotest-qemu.ini` file without testing conflicts. You can develop your new test code by virt test, and commit your changes.
+
 
 4) Make sure you have `inspektor installed. <https://github.com/autotest/inspektor#inspektor>`_
 5) Run:
